@@ -14,8 +14,7 @@ export const Login = styled.img`
 &:hover{
         background-color: #4FC3F7;
         border-radius: 50%;
-         /* padding: 2px;  */
-`;
+}`;
 
 export const Carrinho = styled.img`
   width: 40px;
