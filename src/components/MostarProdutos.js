@@ -6,28 +6,29 @@ import listaProdutos from "./listaProdutos";
 const ContainerProdutos = styled.div`
     display: flex;
     flex-wrap: wrap;
-    margin: 50px;
-    align-items: center;
+    margin: 100px;
+
     justify-content: center;
 `
 
 const BoxProduto = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   margin: 50px;
   width: 300px;
   height: 400px;
   background-color: #B2EBF2;
   align-items: center;
   border-radius: 20px;
-  box-shadow: floralwhite;
+  /* box-shadow: pink; */
 `;
 
 const Produto = styled.p`
   font-size: 19px;
   color: black;
-  margin-top: 10px;
+  margin-top: 20px;
+  /* align-items: center; */
 `;
 
 const ImgProduto = styled.img`
