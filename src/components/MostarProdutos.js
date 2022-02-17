@@ -25,7 +25,7 @@ const BoxProduto = styled.div`
 `;
 
 const Produto = styled.p`
-  font-size: 25px;
+  font-size: 19px;
   color: black;
   margin-top: 10px;
 `;
