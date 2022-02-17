@@ -14,9 +14,11 @@ function Header() {
       <ContainerInput>
       <Carrinho src={carrinho} />
         <Input type="text" placeholder="Produto..." />
+       
       </ContainerInput>
       <Login src={login} />
     </Cabecalho>
+    
   );
 }
 
