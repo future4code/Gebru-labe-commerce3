@@ -17,7 +17,7 @@ export const Login = styled.img`
         cursor: pointer;
         border-radius: 50%;
          padding: 2px; 
-` 
+  }` 
 
 export const Carrinho = styled.img`
   width: 40px;
