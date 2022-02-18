@@ -1,17 +1,20 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Header from './components/Header'
 import MostarProdutos from './components/MostarProdutos';
+// import {ComponenteFiltro} from './Components/filtro.js';
+import ComponenteFiltro from './components/Filtro';
 
-class App extends Component {
-  render() {
-    return (
-      <>
-        <Header />
-        <MostarProdutos />
-      </>
-    )
-  }
+function App() {
+  return (
+   <>
+       
+      <Header/>
+      <ComponenteFiltro/> 
+  <MostarProdutos/>
+    
 
+   </>
+  );
 }
 
 export default App;

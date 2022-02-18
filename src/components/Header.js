@@ -1,19 +1,24 @@
 import React from "react";
 import logo from "./img/logo.jpeg"; 
-import carrinhoImg from "./img/pngwing.com.png";
+import carrinho from "./img/carrinho.png";
+import login from "./img/login5.jpg"
 
-import {Cabecalho, ImgCarrinho, ContainerInput, ImgLogo, Input} from "./Header.style";
+import {Cabecalho, Carrinho, ContainerInput, Logo,Login,Input} from "./Header.style";
 
 
 function Header() {
   return (
     <Cabecalho>
-      <ImgLogo src={logo} />
+      <Logo src={logo} />
+      
       <ContainerInput>
-        <ImgCarrinho src={carrinhoImg} />
-        <Input type="text" placeholder="Pesquisar..." />
+      <Carrinho src={carrinho} />
+        <Input type="text" placeholder="Produto..." />
+       
       </ContainerInput>
+      <Login src={login} />
     </Cabecalho>
+    
   );
 }
 
