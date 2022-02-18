@@ -1,17 +1,18 @@
-import React, { Component } from 'react';
-import Header from './components/Header'
+import React from 'react';
+import Header from './components/Header';
 import MostarProdutos from './components/MostarProdutos';
-// import {ComponenteFiltro} from './Components/filtro.js';
+omponente/components/Filt
 
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <>
         <Header />
+        <ComponenteFiltro/>
         <MostarProdutos />
       </>
-    )
+    );
   }
 }
 
